@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #5167a01f;
+    height: 100vh;
+}
+
+.inicio-tela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #2d3a5a;
+}
+
+.img-quadrado img {
+    position: relative;
+    width: 30rem;
+    margin-top: -10rem;
+    float: right;
+    z-index: 2;
+}
+
+.circle {
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background: #2D3A5A;
+    clip-path: circle(650px at right 800px);
+    z-index: 1;
+}
+
+.texthome {
+    color: #1b2133;
+    font-size: 3.5rem;
+    width: 45rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.IN {
+    margin-top: 11rem;
+    height: 47%;
+}
+
+
+.texthome {
+    margin-left: 5rem;
+}
+
+.texthome .autor {
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    margin-right: 22rem;
+    color: #5167a0;
+}
+
+.texthome span {
+    color: var(--azul-principal);
+    text-transform: uppercase;
+}
+
+/* Estilos para a página Sobre Nós */
+
+#titulosobre {
+    font-size: 4rem;
+    margin-top: -5rem;
+    margin-bottom: 2.5rem;
+    z-index: 3;
+    font-family: 'Poppins', sans-serif;
+    color: #5167a0ea;
+}
+
+.sobre-nos {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid var(--azul-principal);
+    border-radius: 5px;
+
+    width: 70%;
+    height: 66%;
+    z-index: 3;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quem-somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nosso-objetivo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.8rem;
+    text-align: center;
+}
+
+.nossa-visao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.8rem;
+    text-align: center;
+}
+
+/* Estilos para a página Fale Conosco */
+
+/* ... (outros estilos existentes) ... */
+
+/* Estilos para o botão de Fale Conosco */
+#btnFaleConosco {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#btnFaleConosco:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+

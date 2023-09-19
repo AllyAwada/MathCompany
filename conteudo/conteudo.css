@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #5167a01f;
+    height: 100vh;
+}
+
+/* Comeco da tela de pitagoras*/
+
+.cb {
+    margin: 8rem 0 0 4rem;
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', sans-serif;;
+}
+
+section {
+    display: inline-flex;
+    margin: 0 0 1.25rem 0;
+}
+
+.texto {
+    background: #fff;
+    border: 1px solid rgba(128, 128, 128, 0.193);
+    border-radius: 4px;
+    text-align: left;
+    margin-left: 4rem;
+    margin-right: 5rem;
+    padding: 2.5rem;
+    width: 70%;
+    
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 2rem;
+    font-family: 'DM Sans', sans-serif;
+    text-align: justify;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.tr h2 {
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 0;
+}
+
+.tr p {
+    font-size: 1.5rem;
+    padding: .5rem;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+hr {
+    opacity: .3;
+}
+
+.cont {
+    color: #2D3A5A;
+}
+
+span {
+    font-weight: bold
+}
+
+.rt {
+    display: none;
+}
+
+.btnstyle {
+    width: 20rem;
+    height: 3rem;
+    background: #5168A0;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+
+
+/* pitagoras */
+.tr1 {
+    width: 20rem;
+    height: 15.5rem;
+    margin-right: 5rem;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.193);
+}
+
+.pitagora-imagem1 img{
+    width: 40rem;
+}
+
+/* soma e produto */
+.tr2 {
+    width: 50rem;
+    height: 15.5rem;
+    margin-right: 5rem;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.193);
+}
+/* bhaskara */
+.tr3 {
+    width: 50rem;
+    height: 19rem;
+    margin-right: 5rem;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.193);
+}
+/* funcao afim */
+.tr4 {
+    width: 50rem;
+    height: 22rem;
+    margin-right: 5rem;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.193);
+}
+/* porcentagem */
+.tr5 {
+    width: 50rem;
+    height: 14rem;
+    margin-right: 5rem;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.193);
+}
+
+.porcentagem-imagem1 img { 
+    width: 35rem;
+}
+/* funcao quadratica */
+.tr6 {
+    width: 50rem;
+    height: 19rem;
+    margin-right: 5rem;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.193);
+}
+/* potencia */
+.tr7 {
+    width: 50rem;
+    height: 14rem;
+    margin-right: 5rem;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.193);
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #5167a01f;
+    height: 80vh;
+}
+
+/* Começo do codigo */
+
+main {
+    width: 100%;
+    margin-top: 10rem;
+}
+
+h2 {
+    padding-top: 2rem;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.dm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2rem;
+    font-size: .8rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.dm a {
+    margin-right: 1rem;
+    background: #5168A0;
+    color: #Fff;
+    border: .5px solid #2D3A5A;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.dm a:hover {
+    color: #2D3A5A;
+}
+
+.v1 {
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 2rem;
+    gap: 2rem;
+}
+
+.cont {
+    color: #2D3A5A;
+}
+
+
+.dm {
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+    font-size: 0.8rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.dm a {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    background: #5168A0;
+    color: #Fff;
+    border: .5px solid #2D3A5A;
+    border-radius: 5px;
+    padding: .8rem;
+    text-decoration: none;
+}
+

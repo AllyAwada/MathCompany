@@ -1,0 +1,120 @@
+/* Estilos para telas pequenas (dispositivos móveis) */
+@media screen and (max-width: 767px) {
+    .dp-menu .imagem img {
+        position: static; /* Volte a posição à estática para que a imagem flua com o conteúdo */
+        width: 9rem /* Defina a largura como automática para redimensionar conforme necessário */
+    }
+
+    .dp-menu {
+        height: auto; /* Torna a altura automática para acomodar o conteúdo móvel */
+    }
+
+    .dp-menu ul li {
+        display: block; /* Altera para blocos para empilhar os itens verticalmente */
+        margin: 0; /* Remova as margens para itens individuais */
+    }
+
+    .dp-menu ul li button {
+        margin: 0.5rem 0; /* Adicione margens para separar os botões verticalmente */
+    }
+
+    .dp-menu ul ul {
+        position: static; /* Volte a posição à estática para submenu fluir com o conteúdo */
+        width: auto; /* Defina a largura como automática para redimensionar conforme necessário */
+        display: none; /* Oculte o submenu */
+    }
+
+
+    body {
+        font-size: 16px;
+    }
+
+    .inicio-tela {
+        margin-top: 12rem;
+    }
+
+    .IN {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        margin-top: 0;
+    }
+
+    .img-quadrado img {
+        margin-top: 0;
+    }
+
+    .texthome {
+        margin-bottom: -10rem;
+    }
+
+    .circle {
+        display: none;
+    }
+    
+    .sobre-nos p {
+        font-size: 1.15rem;
+    }
+}
+
+/* Estilos para telas grandes (PCs com resolução de 1920x1080) */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 18px; /* Tamanho de fonte maior para telas grandes */
+    }
+
+    .inicio-tela {
+        margin-bottom: 0;
+    }
+
+    .sobre-nos p {
+        font-size: auto;
+    }
+
+    .IN .img-quadrado img {
+        width: 40rem;
+    }
+
+    .IN .texthome {
+        font-size: 4rem;
+        margin-top: 20rem;
+        margin-left: 15rem;
+        margin-bottom: -6rem;
+    }
+
+    .IN .texthome .autor {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    body {
+        font-size: 18px; /* Tamanho de fonte maior para telas grandes */
+    }
+
+    .inicio-tela {
+        margin-top: 10rem;
+        margin-bottom: 0;
+    }
+
+    .sobre-nos p {
+        font-size: 2.8rem;
+    }
+
+    .IN .img-quadrado img {
+        width: 60rem;
+        margin-top: -20rem;
+    }
+
+    .IN .texthome {
+        font-size: 6rem;
+        width: 40%;
+        margin-top: 32rem;
+    }
+
+    .IN .texthome .autor {
+        font-size: 2rem;
+    }
+}

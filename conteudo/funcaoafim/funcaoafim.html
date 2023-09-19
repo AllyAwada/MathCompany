@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/conteudo/conteudo.css">
+    <script src="/barramenu.js" defer></script>
+    <script src="script.js"></script>
+    
+    <title>Math Company</title>
+</head>
+
+<body>
+    <nav class="dp-menu">
+        <ul>
+            <div class="imagem">
+                <img src="/img/LOGOMATH (1).png" alt="">
+            </div>
+            <li><button id="btn-home">Home</button></li>
+            <li><button id="content">Conteúdo</button>
+                <ul>
+                    <li><button id="pitagorasConteudos">Pítagoras</button></li>
+                    <li><button id="somaConteudos">Soma e produto</button></li>
+                    <li><button id="bhaskaraConteudos">Bhaskara</button></li>
+                    <li><button id="afimConteudos">Função Afim</button></li>
+                    <li><button id="porcentagemConteudos">Porcentagem</button></li>
+                    <li><button id="quadraticaConteudos">Fun Quadrática</button></li>
+                    <li><button id="potenciaConteudos">Potencia</button></li>
+                </ul>
+            </li>
+
+            <li><button id="video">Video aula</button>
+                <ul>
+                    <li><button id="pitagorasVideo">Pítagoras</button></li>
+                    <li><button id="somaVideo">Soma e produto</button></li>
+                    <li><button id="bhaskaraVideo">Bhaskara</button></li>
+                    <li><button id="afimVideo">Função Afim</button></li>
+                    <li><button id="porcentagemVideo">Porcentagem</button></li>
+                    <li><button id="quadraticaVideo">Fun Quadrática</button></li>
+                    <li><button id="potenciaVideo">Potencia</button></li>
+                </ul>
+            </li>
+
+            <li><button id="btn-sobre">Sobre nós</button></li>
+
+            <li><button id="btn-quiz">Quiz</button></li>
+        </ul>
+    </nav>
+
+    <main>
+        <head>
+            <h1 class="cb">Matemática > FUNÇÃO AFIM</h1>
+        </head>
+        <section>
+            <div class="texto">
+                <div class="t1">
+                    <h1>Função Afim</h1>
+                    <h2>O que é função afim?</h2>
+                    <p>A função afim, também chamada de função do 1º grau, é uma função f : ℝ→ℝ, definida como f(x) =
+                        ax+ b, sendo a e b números reais. </p>
+                    <p> As funções f(x) = x + 5, g(x) = 3√3x - 8 e h(x) = 1/2 x são exemplos de funções afim. </p>
+                    <p>Neste tipode função, o número a é chamado de coeficiente de x e representa a taxa de crescimento
+                        ou taxade variação da função. Já o número b é chamado de termo constante.</p>
+
+                    <img src="/img/img-afim/1.png" alt="">
+                </div>
+                <div class="t2">
+                    <h2>Gráfico de uma função do 1° grau</h2>
+                    <p>O gráfico de uma função polinomial do 1º grau é uma reta oblíqua aos eixos Ox e Oy. Desta forma,
+                        para construirmos seu gráfico basta encontrarmos pontos que satisfaçam a função</p>
+                    <h2>Exemplo:</h2>
+                    <p>Construa o gráfico da função f (x) = 2x + 3.</p>
+                    <h2>Solução:</h2>
+                    <p>Para construir o gráfico desta função, vamos atribuir valores arbitrários para x, substituir na
+                        equação e calcular o valor correspondente para a f (x).
+                        Sendo assim, iremos calcular a função para os valores de x iguais a: - 2, - 1, 0, 1 e 2.
+                        Substituindo esses valores na função, temos:
+                        <br>
+                        f (- 2) = 2. (- 2) + 3 = - 4 + 3 = - 1 <br> f (- 1) = 2 . (- 1) + 3 = - 2 + 3 = 1 <br> f (0) = 2
+                        . 0 + 3 = 3 <br> f (1) = 2 . 1 + 3 = 5 <br> f (2) = 2 . 2 + 3 = 7
+                        <br>
+                        Os pontos escolhidos e o gráfico da f (x) são apresentados na imagem abaixo:
+                    </p>
+                    <img src="/img/img-afim/2.png" alt="">
+                    <p>No exemplo, utilizamos vários pontos para construir o gráfico, entretanto, para definir uma reta
+                        bastam dois pontos. Para facilitar os cálculos podemos, por exemplo, escolher os pontos (0,y) e
+                        (x,0). Nestes pontos, a reta da função corta o eixo Ox e Oy respectivamente.</p>
+                </div>
+                <div>
+                    <h2>Exercício comentados sobre Função Afim</h2>
+                    <p><span>Questão 1</span></p>
+
+                    <p>(Unicamp - 2016) Considere a função afim f(x) = ax + b definida para todo número real x, onde a e b são números reais. Sabendo que f(4) = 2, podemos afirmar que f(f(3) + f(5)) é igual a</p>
+                    <p>
+                        a) 5 <br>
+                        b) 4 <br>
+                        c) 3 <br>
+                        d) 2 
+                    </p>
+
+                    <div id="resp1">
+                        <button onclick="rpt1()" class="btnstyle" id="btn1resposta">Ver Resposta</button> <br>
+                        <div class="rt" id="resposta1">
+                            <p>Alternativa correta: d) 2</p>
+
+                            <p>
+                                Sendo a f(4) = 2 e f(4) = 4a + b, então 4a + b = 2. Considerando ainda que f(3) = 3a + b e f(5) = 5a +b, a função da soma das funções será:
+                            </p>
+                            <img src="/img/img-afim/3.png" alt="">
+                            <p>
+                                Portanto, sabendo que f(4) = 2, podemos afirmar que f(f(3) + f(5)) é igual a 2.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tr">
+                <div class="tr4">
+                    <h2>Tópicos Relacionados</h2>
+                    <hr>
+                    <p>•O que é função afim? </p>
+                    <p>•Gráfico de uma função do 1° grau </p>
+                    <p>•Exemplo</p>
+                    <p>•Solução</p>
+                    <p>•Exercicio</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

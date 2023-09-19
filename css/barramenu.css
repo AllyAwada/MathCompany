@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+button {
+    cursor: pointer;
+}
+
+.dp-menu .imagem img{ /* Imagem logo */
+    position: absolute;
+    left: 0;
+    top: -3rem;
+    width: 20rem;
+}
+
+.dp-menu{
+    position: fixed; /* fixar a posição */
+    top: 0; /* Posicionado em cima */
+    left: 0; /* Posicionado a esquerda */
+    width: 100%; /* Deixando da largura da página */
+    height: 7rem; /* Define a altura de 9rem */
+    background-color: var(--azul-principal); /* Define a cor de fundo do menu */
+    z-index: 5;
+}
+
+.dp-menu ul{
+    list-style-type: none; /* Remover os bullets*/
+    padding: 0; /* Retirar o espaçamento */
+    background-color: var(--azul-principal); /* Definine a cor de fundo do nosso menu */
+    display: flex; /* Junta os botões */
+    justify-content: center; /* Centraliza tudo na pagina */
+    align-items: center; /* Centraliza tambem */
+}
+
+.dp-menu ul li {
+    display: inline; /* Deixar os itens alinhado */
+    position: relative; /* Guia a posição relativa */
+}
+
+.dp-menu ul li button{
+    color: var(--branco); /* Trocar as cores das letras dos botões */
+    background: none; /* Tira a cor de fundo dos botões */
+    border: none; /* Tira a borda dos botões */
+    display: inline-block; /* Deixar os itens alinhado */
+    padding: 1rem; /* Tamanho os botões */ 
+    border-radius: 1rem; /* Arredonda as pontas */
+    margin-top: 2rem;
+    margin-right: 3rem; /* Separa os botões */
+    transition: background .3s; /* Delai na mudança de cores */
+}
+
+.dp-menu ul li button:hover{ /* O hover é para quando passar com o mouse por cima */
+    background-color: var(--azul-hover); /* Troca a cor de fundo dos botões */
+    cursor: pointer; /* Trocar o cursor ao passar pelo button */
+}
+
+/* Sub menu */
+.dp-menu ul ul {
+    display: none; /* Some com o que possuí */
+    position: absolute; /* Posição relativa ao absolute */
+    right: 0;
+    width: 15rem; /* Ajusta o tamanho do que aparecerá */
+}
+
+.dp-menu ul li:hover ul {
+    display: block; /* Aparece o que possuí */
+    border-radius: 1rem; /* Arredonda as bordas */
+}
+
+.dp-menu ul ul li button{
+    width: 15rem;
+}
