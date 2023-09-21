@@ -176,8 +176,8 @@ const questions = [
   {
     question: "Se você ganhou um aumento de salário de 10%, e seu salário anterior era de $2.000 por mês, qual será o novo salário?",
     answers: [
-      { text: "$2,100", correct: true },
-      { text: "$2,200", correct: false },
+      { text: "$2,100", correct: false },
+      { text: "$2,200", correct: true },
       { text: "$2,1000", correct: false },
       { text: "$2,020", correct: false }
     ]
