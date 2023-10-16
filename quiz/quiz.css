@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
-
 * {
   padding: 0;
   margin: 0;
@@ -12,19 +8,19 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
-  color: var(--branco);
   align-items: center;
   background: var(--fundo);
 }
 
 .quiz {
   background-color: #2D3A5A;
-  width: 100%;
-  max-width: 800px;
+  width: 65rem;
+  height: 50rem;
 
   border: 2px solid var(--azul-principal);
   border-radius: 6px;
   padding: 16px;
+  margin-top: 5rem;
 
   display: flex;
   flex-direction: column;
@@ -32,12 +28,23 @@ body {
   align-items: center;
 }
 
+.quiz img {
+  border-radius: 5px;
+}
+
+.quiz p {
+  margin: 2rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
 .questoes-quiz {
   width: 100%;
+  gap: 24px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
 }
 
 .question {
@@ -115,9 +122,17 @@ body {
 
 body.incorrect{
   background-color: var(--fundo);
-  color: #c90054;
+  
 }
 body.correct {
   background-color: var(--fundo);
-  color: #c90054;
+}
+
+.texto-quiz {
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: justify;
+  color: #fff;
+
+  margin-bottom: 2rem;
 }

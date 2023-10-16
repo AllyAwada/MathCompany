@@ -34,8 +34,6 @@ section {
     margin-left: 4rem;
     margin-right: 5rem;
     padding: 2.5rem;
-    width: 70%;
-    
 }
 
 h1 {
@@ -57,7 +55,6 @@ p {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-
 
 .tr h2 {
     font-size: 1.5rem;
@@ -98,14 +95,11 @@ span {
     border-radius: 8px;
 }
 
-
-
-
-
 /* pitagoras */
+
 .tr1 {
-    width: 50rem;
-    height: 15.5rem;
+    width: 20rem;
+    height: 17rem;
     margin-right: 5rem;
     background: #fff;
     border-radius: 5px;
@@ -118,7 +112,7 @@ span {
 
 /* soma e produto */
 .tr2 {
-    width: 50rem;
+    width: 20rem;
     height: 15.5rem;
     margin-right: 5rem;
     background: #fff;
@@ -127,7 +121,7 @@ span {
 }
 /* bhaskara */
 .tr3 {
-    width: 50rem;
+    width: 20rem;
     height: 19rem;
     margin-right: 5rem;
     background: #fff;
@@ -136,7 +130,7 @@ span {
 }
 /* funcao afim */
 .tr4 {
-    width: 50rem;
+    width: 20rem;
     height: 22rem;
     margin-right: 5rem;
     background: #fff;
@@ -145,7 +139,7 @@ span {
 }
 /* porcentagem */
 .tr5 {
-    width: 50rem;
+    width: 20rem;
     height: 14rem;
     margin-right: 5rem;
     background: #fff;
@@ -158,7 +152,7 @@ span {
 }
 /* funcao quadratica */
 .tr6 {
-    width: 50rem;
+    width: 20rem;
     height: 19rem;
     margin-right: 5rem;
     background: #fff;
@@ -167,7 +161,7 @@ span {
 }
 /* potencia */
 .tr7 {
-    width: 50rem;
+    width: 20rem;
     height: 14rem;
     margin-right: 5rem;
     background: #fff;

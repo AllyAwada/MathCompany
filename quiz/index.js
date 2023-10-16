@@ -103,7 +103,7 @@ function finishGame() {
       onclick=window.location.reload() 
       class="button"
     >
-      Refazer teste
+      Reiniciar
     </button>
   `
 }
@@ -122,7 +122,7 @@ const questions = [
   {
     question: "Se você tem uma função afim f(x) = -2x + 5, qual é o valor de f(4)?",
     answers: [
-      { text: "-3", correct: true },
+      { text: "2", correct: true },
       { text: "3", correct: false },
       { text: "4", correct: false },
       { text: "5", correct: false }
@@ -245,5 +245,25 @@ var barraMenu = document.querySelector('.dp-menu');
 botaoEsconderMenu.addEventListener('click', function() {
   if (barraMenu.style.display !== 'none') {
     barraMenu.style.display = 'none';
+  }
+});
+
+var botaoEsconderImagem = document.getElementById('comecarquiz');
+
+var imagem = document.querySelector('.img-quiz');
+
+botaoEsconderImagem.addEventListener('click', function() {
+  if (imagem.style.display !== 'none') {
+    imagem.style.display = 'none';
+  }
+});
+
+var botaoEsconderP = document.getElementById('comecarquiz');
+
+var paragrafo = document.querySelector('.paragrafo');
+
+botaoEsconderP .addEventListener('click', function() {
+  if (paragrafo.style.display !== 'none') {
+    paragrafo.style.display = 'none';
   }
 });

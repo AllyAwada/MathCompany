@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
-
 html {
     font-size: 62.5%;
 }
@@ -14,7 +10,7 @@ html {
 
 body {
     background: #5167a01f;
-    height: 100vh;
+    height: 100%;
 }
 
 .inicio-tela {
@@ -79,8 +75,8 @@ body {
 
 #titulosobre {
     font-size: 4rem;
-    margin-top: -5rem;
-    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     z-index: 3;
     font-family: 'Poppins', sans-serif;
     color: #5167a0ea;
@@ -89,12 +85,12 @@ body {
 .sobre-nos {
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 3px solid var(--azul-principal);
     border-radius: 5px;
+    font-family: 'DM Sans', sans-serif;
 
-    width: 70%;
-    height: 66%;
+    width: 90%;
+    height: 60%;
     z-index: 3;
 
     display: flex;
@@ -102,27 +98,16 @@ body {
     align-items: center;
 }
 
+.sobre-nos h2 {
+    margin: 1rem 0 2rem 0;
+    font-size: 3rem;
+}
+
 .quem-somos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-}
-
-.nosso-objetivo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3.8rem;
-    text-align: center;
-}
-
-.nossa-visao {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3.8rem;
-    text-align: center;
+    text-align: justify;
 }
 
 /* Estilos para a página Fale Conosco */
@@ -152,3 +137,35 @@ footer {
 }
 
 
+/* integrantes */
+
+.integrantes {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    padding: 20px;
+
+    background: var(--branco);
+    border: 3px solid var(--azul-principal);
+    border-radius: 5px;
+
+    font-family: 'DM Sans', sans-serif;
+}
+
+.integrantes img {
+    width: 10rem;
+}
+
+.fileira1 {
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.fileira2 {
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.fileira3 {
+    margin-bottom: 2rem;
+    display: flex;
+}
