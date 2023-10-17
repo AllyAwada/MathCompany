@@ -122,10 +122,10 @@ const questions = [
   {
     question: "Se você tem uma função afim f(x) = -2x + 5, qual é o valor de f(4)?",
     answers: [
-      { text: "2", correct: true },
+      { text: "-3", correct: true },
       { text: "3", correct: false },
-      { text: "4", correct: false },
-      { text: "5", correct: false }
+      { text: "2", correct: false },
+      { text: "-2", correct: false }
     ]
   }, 
   {
@@ -133,15 +133,15 @@ const questions = [
     answers: [
       { text: "x = 2 e x = 1/2", correct: false },
       { text: "x = 3 e x = -1/2", correct: false },
-      { text: "x = -1 e x = 3/2", correct: true },
+      { text: "x = 1 e x = 3/2", correct: true },
       { text: "x = 1 e x = -3/2", correct: false }
     ]
   }, 
   {
     question: "Encontre as raízes da equação x² + 6x + 9 = 0 usando a fórmula de Bhaskara.",
     answers: [
-      { text: "x = 3", correct: true },
-      { text: "x = -3", correct: false },
+      { text: "x = -3", correct: true },
+      { text: "x = 3", correct: false },
       { text: "x = 0", correct: false },
       { text: "x = -6", correct: false }
     ]
@@ -208,16 +208,7 @@ const questions = [
       { text: "(-1, 3)", correct: false },
       { text: "(3, -2)", correct: false }
     ]
-  }, 
-  {
-    question: "Resolva a equação quadrática x² + 7x - 10 = 0 encontrando suas raízes.",
-    answers: [
-      { text: "x = 2 e x = -5", correct: false },
-      { text: "x = -2 e x = 5", correct: false },
-      { text: "x = 2 e x = 5", correct: true },
-      { text: "x = -2 e x = -5", correct: false }
-    ]
-  }, 
+  },  
   {
     question: "Encontre dois números cuja soma seja 10 e o produto seja 24.",
     answers: [
